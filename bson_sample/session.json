@@ -1,0 +1,136 @@
+{
+    "_id" : ObjectId("654ea0ee82ea97202dacdff2"),
+    "updated" : ISODate("2023-10-17T16:24:14.743+0000"),
+    "created" : ISODate("2023-10-17T16:24:08.415+0000"),
+    "createdBy_id" : null,
+    "createdBy" : null,
+    "record_version" : NumberInt(2),
+    "record_status" : NumberInt(0),
+    "Data" : null,
+    "PreviousData" : null,
+    "UIConfigRefId" : ObjectId("61892205105a9f08fba5a23d",
+    "PolicyRefId" : ObjectId("6516e2d6f182242938b93322",
+    "PrimaryClientRefId" : ObjectId("6516e18ef182242938b93205",
+    "ProgramRefId" : ObjectId("6189221e105a9f08fba5a240",
+    "TransactionType" : NumberInt(1),
+    "States" : [
+        {
+            "Date" : ISODate("2023-10-17T16:24:08.415+0000"),
+            "State" : NumberInt(0),
+            "Info" : null,
+            "AdditionalInfo" : null
+        },
+        {
+            "Date" : ISODate("2023-10-17T16:24:14.743+0000"),
+            "State" : NumberInt(0),
+            "Info" : null,
+            "AdditionalInfo" : null
+        }
+    ],
+    "Exceptions" : [
+
+    ],
+    "LegacyCoverages" : [
+
+    ],
+    "RawData" : {
+        "person_first_name" : "Test",
+        "person_last_name" : "Last",
+        "applicant_address" : {
+            "_t" : "PolicyAddress",
+            "line_1" : "111 My Street",
+            "line_2" : "",
+            "city" : "My City",
+            "prov_ref_id" : "NB",
+            "postal_code" : "X1X 1X1",
+            "country" : "Canada"
+        },
+        "start_date" : ISODate("2024-01-01T00:00:00.000+0000"),
+        "province_of_operation" : "NB",
+        "applicant_phone" : "(506) 426-2641",
+        "applicant_email" : "invalid@gmail.com",
+        "is_inside_canada" : true,
+        "has_registration_number" : true,
+        "no_registration_number_type" : "",
+        "good_standing" : true,
+        "registration_number" : "1234",
+        "paramedic_level" : "",
+        "retroactive_date" : ISODate("2023-09-29T00:00:00.000+0000"),
+        "company_name" : "",
+        "renewing_bool" : false,
+        "self_employed" : false,
+        "has_other_employees" : false
+    },
+    "UIStates" : [
+        {
+            "ElementId" : "de72ea48-1318-41c3-95bc-82e811f374ed",
+            "PropertyName" : "person_first_name",
+            "State" : "visible",
+            "PreviousValue" : "Test"
+        },
+        {
+            "ElementId" : "9a34c488-ffbd-4a9a-896c-90b0fb118726",
+            "PropertyName" : "person_last_name",
+            "State" : "visible",
+            "PreviousValue" : "Last"
+        },
+        {
+            "ElementId" : "971bd587-23ad-4ac5-8843-ab71e57e1a63",
+            "PropertyName" : "start_date",
+            "State" : "visible",
+            "PreviousValue" : ISODate("2024-01-01T00:00:00.000+0000")
+        }
+    ],
+    "SessionRefId" : "cf997808-78fb-4385-9373-244234638260",
+    "UmbrellaRefId" : null,
+    "LeadRefIds" : [
+        {
+            "k" : "4f274818-14db-4e0e-93bd-dee324071fa5",
+            "v" : ObjectId("6516e18ef182242938b93205")
+        }
+    ],
+    "PaymentServiceToken" : null,
+    "PaymentServiceTransaction" : null,
+    "FinancingQuoteRefId" : null,
+    "FinancingQuote" : null,
+    "Language" : "en-CA",
+    "ApplicationId" : "APL-311-411111",
+    "DataFilter" : null,
+    "TierId" : null,
+    "TierVersion" : Decimal128(2024),
+    "ParentPolicyRefId" : ObjectId("6516e2d6f182242938b93322"),
+    "UWInfo" : {
+        "UWAccessRefId" : null,
+        "UWState" : NumberInt(-1),
+        "Result" : false,
+        "Reason" : null,
+        "CompletedByEmail" : null,
+        "CompletedByName" : null,
+        "Premium" : NumberDecimal("0"),
+        "PolicyNumber" : null,
+        "RawData" : {
+
+        },
+        "UIStates" : [
+
+        ]
+    },
+    "CurrentState" : {
+        "Date" : ISODate("2023-10-17T16:24:14.743+0000"),
+        "State" : NumberInt(0),
+        "Info" : null,
+        "AdditionalInfo" : null
+    },
+    "BoundPolicyId" : null,
+    "BoundDate" : null,
+    "PaymentAttempts" : [
+
+    ],
+    "RemindersSent" : [
+        {
+            "DaysBeforeExpiry" : NumberInt(60),
+            "EmailQueueItemId" : ObjectId("654eaaa70411a0a0980d0ea5"),
+            "DateSent" : ISODate("2023-11-10T22:11:51.294+0000")
+        }
+    ]
+}

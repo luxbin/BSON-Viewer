@@ -1,0 +1,23 @@
+{
+    "_id" : ObjectId("658062454a1e3a381276e3c2"),
+    "bool" : false,
+	"string" : "string",
+    "date" : ISODate("2023-12-18T15:20:49.041+0000"),
+    "decimal" : NumberDecimal("0.0"),
+    "double" : 0.0,
+    "int32" : NumberInt(0),
+    "int64" : NumberLong(0),
+    "null" : null,
+    "object" : {
+    },
+    "objectid" : ObjectId("658063af4a1e3a381276e3c7"),
+    "timestamp" : Timestamp(0, 0),
+	"regex" : /.*/,
+	"code" : function myFunction(p1, p2) {
+				a = 0;
+                return p1 * p2;
+				} ,
+
+    "reference" : DBRef("collection", ObjectId("658063be4a1e3a381276e3c8")),
+	"binary" : BinData(0, "Qk1mAAAAAAAAADYAAAAoAAAABAAAAAQAAAABABgAAAAAADAAAADEDgAAxA4AAAAAAAAAAAAAjIyM+/v709PTVVVVcHBwaWlpVFRU09PT0NDQSUlJWlpa5+fnVVVV09PToKCgVVVV"),
+}
